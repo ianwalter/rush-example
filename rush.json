@@ -379,15 +379,18 @@
   "projects": [
     {
       "packageName": "@ianwalter/rush-log",
-      "projectFolder": "packages/log"
+      "projectFolder": "packages/log",
+      "shouldPublish": true
     },
     {
       "packageName": "@ianwalter/rush-hello",
-      "projectFolder": "packages/hello"
+      "projectFolder": "packages/hello",
+      "shouldPublish": true
     },
     {
       "packageName": "@ianwalter/rush-app",
-      "projectFolder": "packages/app"
+      "projectFolder": "packages/app",
+      "shouldPublish": true
     }
     // {
     //   /**
