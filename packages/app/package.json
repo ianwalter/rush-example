@@ -1,0 +1,22 @@
+{
+  "name": "@ianwalter/rush-app",
+  "version": "1.0.0",
+  "description": "An example app within a rush monorepo",
+  "bin": {
+    "mrapp": "cli.js"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/ianwalter/rush-example.git",
+    "directory": "packages/app"
+  },
+  "dependencies": {
+    "@ianwalter/cli": "^4.1.0",
+    "@ianwalter/rush-hello": "^1.0.0",
+    "@ianwalter/rush-log": "^1.0.0"
+  }
+}

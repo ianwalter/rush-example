@@ -1,0 +1,27 @@
+{
+  "name": "@ianwalter/rush-hello",
+  "version": "1.0.0",
+  "description": "Greeting utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "bff"
+  },
+  "author": {
+    "name": "Ian Walter"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/ianwalter/rush-example.git",
+    "directory": "packages/hello"
+  },
+  "devDependencies": {
+    "@ianwalter/bff": "^9.10.0"
+  },
+  "peerDependencies": {
+    "@ianwalter/rush-app": "^1.0.0"
+  }
+}
